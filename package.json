@@ -1,0 +1,27 @@
+{
+  "name": "techtask",
+  "version": "1.0.0",
+  "description": "Bohdan's tech task",
+  "license": "ISC",
+  "author": "Bohdan MisoFana",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.16",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.9"
+  }
+}
